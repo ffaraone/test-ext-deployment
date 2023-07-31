@@ -1,0 +1,14 @@
+env: production
+type: multiaccount
+package_id: com.ffaraone.test.deployments
+name: Test deployments
+description: Extension to test deployments
+overview: overview.md
+website: https://deploy.example.org
+icon: django.png
+category: Digital Commerce
+var:
+    TEST_UNSECURE:
+        value: pippo
+    TEST_SECURE:
+        secure: true
